@@ -1,0 +1,14 @@
+{
+  "name": "minimal-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint1": "eslint --fix test.vue",
+    "lint2": "eslint --fix test.less"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.10.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-format": "^0.1.2"
+  }
+}
